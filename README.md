@@ -1,5 +1,5 @@
 # tetris
-Tetris exercise. i should put the name from teh original code still in it
+Tetris exercise. i should put the name from the original code suplier
 Great part of original code is:
 : http://codeincomplete.com/posts/2011/10/10/javascript_tetris/
  * Jake Gordon: https://disqus.com/by/jakesgordon/
