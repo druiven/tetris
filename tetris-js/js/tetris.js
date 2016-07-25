@@ -98,13 +98,6 @@ var s = {size: 3, blocks: [0x06C0, 0x8C40, 0x6C00, 0x4620], color: '#8127b8'};
 var t = {size: 3, blocks: [0x0E40, 0x4C40, 0x4E00, 0x4640], color: '#4cdf6c'};
 var z = {size: 3, blocks: [0x0C60, 0x4C80, 0xC600, 0x2640], color: '#f9c12b'};
 
-/*globalTB[1] = {type: 'L',x: 0, y: -4, blocks: [0x4460, 0x0E80, 0xC440, 0x2E00], color: '#f82620'};
- globalTB[2] = {type: 'O',x: 0, y: -4, blocks: [0xCC00, 0xCC00, 0xCC00, 0xCC00], color: '#3ba2b8'};
- globalTB[3] = {type: 'S',x: 0, y: -4, blocks: [0x06C0, 0x8C40, 0x6C00, 0x4620], color: '#8127b8'};
- globalTB[4] = {type: 'T',x: 0, y: -4, blocks: [0x0E40, 0x4C40, 0x4E00, 0x4640], color: '#4cdf6c'};
- globalTB[5] = {type: 'Z',x: 0, y: -4, blocks: [0x0C60, 0x4C80, 0xC600, 0x2640], color: '#f9c12b'};
- globalTB[6] = {type: 'I',x: 0, y: -4, blocks: [0x0F00, 0x2222, 0x00F0, 0x4444], color: '#f87e23'};
- globalTB[7] = {type: 'J',x: 0, y: -4, blocks: [0x44C0, 0x8E00, 0x6440, 0x0E20], color: '#4850fd'};*/
 
 //------------------------------------------------
 // do the bit manipulation and iterate through each
@@ -635,12 +628,6 @@ tetrisMusic.setAttribute('loop', 'true');
 var tetrisAudioEvents = document.createElement("audio");
 var tetrisAudioClear = document.createElement("audio");
 var tetrisAudioLock = document.createElement("audio");
-
-/*var audioLock='/wp-content/themes/fundament/tetris/sound/lock.';
- var audioClearLine='/wp-content/themes/fundament/tetris/sound/clearline.';
- var audioRotate='/wp-content/themes/fundament/tetris/sound/rotate.';
- var audioAmazing='/wp-content/themes/fundament/tetris/sound/amazing.';
- var audioMove='/wp-content/themes/fundament/tetris/sound/movelr.';*/
 
 var audioLock = 'sound/lock.';
 var audioClearLine = 'sound/clearline.';
