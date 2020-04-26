@@ -182,8 +182,13 @@ function showStats() {
     get('menu').appendChild(stats.domElement);
 }
 
+function keyup() {
+
+}
+
 function addEvents() {
-    document.addEventListener('keydown', keydown, false);
+    document.onkeydown=keydown;
+    document.onkeyup=keyup;
     // window.addEventListener('resize', resize, false);
 
 }
